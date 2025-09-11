@@ -1,61 +1,37 @@
-# Proteus project files
-*.workspace
-*.pdsprj.DESKTOP-*.workspace
-*.pdsbak
-
-# Compiled files
-*.exe
-*.o
+# Proteus simulation files
+*.DSN
+*.MDB
+*.LDS
+*.PDS
+*.PDSProj
+*.DBK
+*.BAK
+*.LXL
+*.LYT
+*.PDSBKP
+*.sim
+*.elf
+*.hex
+*.bin
+*.lst
+*.map
+*.srec
 *.obj
-*.dll
-*.so
-*.dylib
+*.o
 
-# Logs and databases
-*.log
-*.sql
-*.sqlite
+# Temporary and backup files
+*.bak
+*.tmp
+*.temp
+*~
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# IDE files
+# IDE and editor files
+*.code-workspace
 .vscode/
 .idea/
-*.swp
-*.swo
+*.sublime-project
+*.sublime-workspace
 
-# Build directories
-build/
-dist/
-bin/
-obj/
-
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Backup files
-*~
-*.bak
+# Other common ignores
+Thumbs.db
+.DS_Store

@@ -1,0 +1,61 @@
+# Proteus project files
+*.workspace
+*.pdsprj.DESKTOP-*.workspace
+*.pdsbak
+
+# Compiled files
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build directories
+build/
+dist/
+bin/
+obj/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Backup files
+*~
+*.bak
